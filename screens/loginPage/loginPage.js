@@ -9,13 +9,5 @@ const createWindow = () => {
       //}
     })
   
-    win.loadFile('screens/loginPage/loginPage.html')
+    win.loadFile('screens/landingPage/landingPage.html')
 }
-
-app.whenReady().then(() => {
-createWindow()
-})
-
-app.on('window-all-closed', () => {
-    if (process.platform !== 'darwin') app.quit()
-})
