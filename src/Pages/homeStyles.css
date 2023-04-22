@@ -1,0 +1,20 @@
+.Home {
+    display: inline-block;
+}
+
+.directMessagesSection {
+    height: 100%;   
+    width: 15%;
+    display: inline-block;
+}
+
+.detailsSection {
+    height: 100%;   
+    width: 15%;
+    display: inline-block;
+}
+
+.dmButton {
+    height: 18;
+    width: "100%";
+}
